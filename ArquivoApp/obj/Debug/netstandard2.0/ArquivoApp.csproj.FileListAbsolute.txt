@@ -1,0 +1,14 @@
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/bin/Debug/netstandard2.0/ArquivoApp.deps.json
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/bin/Debug/netstandard2.0/ArquivoApp.dll
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/bin/Debug/netstandard2.0/ArquivoApp.pdb
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.csprojAssemblyReference.cache
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.AssemblyInfoInputs.cache
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.AssemblyInfo.cs
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.dll
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ArquivoApp.pdb
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/ConsumeContexto.xaml.g.cs
+/Users/aluno/Projects/ArquivoApp/ArquivoApp/obj/Debug/netstandard2.0/PageListaArquivo.xaml.g.cs

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ArquivoApp" 
+             x:Class="ArquivoApp.MainPage"
+             Title="Contexto">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Adicionar" 
+                     Clicked="Handle_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <StackLayout>
+        
+        <Editor x:Name="editor_valor" 
+                HeightRequest="200"
+                BackgroundColor="Silver"
+                Margin="20, 20, 20, 0"/>
+        
+        <Label Text="Texto Inicial!"
+               FontSize="60"
+               HorizontalOptions="Center" 
+               x:Name="label_inicial"
+               VerticalOptions="CenterAndExpand" />
+        
+         <Button Text="Quebrar String"
+                BackgroundColor="Gray"
+                FontSize="30"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="quebrarString"/>
+        
+        <Button Text="Checar Lista"
+                BackgroundColor="Gray"
+                FontSize="30"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="checarLista"/>
+    </StackLayout>
+</ContentPage>
