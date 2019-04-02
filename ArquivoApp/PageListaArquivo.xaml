@@ -5,13 +5,17 @@
              Title="Contexto">
     
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Voltar" />
+        <ToolbarItem Text="Voltar" Clicked="voltar"/>
     </ContentPage.ToolbarItems>
     
     <StackLayout>
-        <ListView 
-        x:Name="listView_listaArquivo"
-        ItemSelected="Handle_ItemSelected"
-        />
+        <!--<ListView x:Name="listView_listaArquivo" ItemSelected="Handle_ItemSelected" /> -->
+        <ListView x:Name="listView_listaArquivo">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Conteudo}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>

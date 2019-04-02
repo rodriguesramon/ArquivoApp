@@ -18,7 +18,9 @@ namespace ArquivoApp
             string nome = Path.GetRandomFileName() + ".txt";
             string nomeArquivo = Path.Combine(App.PastaDiretorio, $"{nome}");
 
-            File.Create(nomeArquivo);
+            //File.Create(nomeArquivo);
+            File.WriteAllText(nomeArquivo, "Testando Conteudo...");
+
             label_inicial.Text = "Adicionando...";
             lista.Add(nomeArquivo);
         }
@@ -32,6 +34,7 @@ namespace ArquivoApp
         {
             InitializeComponent();
             label_inicial.Text = App.ValorContexto;
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         void quebrarString(object sender, System.EventArgs e)
