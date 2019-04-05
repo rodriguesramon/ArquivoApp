@@ -15,14 +15,19 @@ namespace ArquivoApp
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            string nome = Path.GetRandomFileName() + ".txt";
+            string nome = Path.GetRandomFileName() + ".json";
             string nomeArquivo = Path.Combine(App.PastaDiretorio, $"{nome}");
 
+            string conteudoTexto = editor_valor.Text;
+
             //File.Create(nomeArquivo);
-            File.WriteAllText(nomeArquivo, "Testando Conteudo...");
+            File.WriteAllText(nomeArquivo, conteudoTexto);
 
             label_inicial.Text = "Adicionando...";
             lista.Add(nomeArquivo);
+
+            editor_valor.Text = string.Empty;
+
         }
 
         void checarLista(object sender, System.EventArgs e)

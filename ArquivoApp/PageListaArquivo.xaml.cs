@@ -42,14 +42,22 @@ namespace ArquivoApp
             var meusarquivos = new List<Arquivo>();
 
             var arquivos = Directory.EnumerateFiles(
-                App.PastaDiretorio, "*.txt"
+                App.PastaDiretorio, "*.json"
             );
 
             foreach(var nomedoarquivo in arquivos){
                 //int indice = nomedoarquivo.LastIndexOf('/');
                 //listadearquivos.Add(nomedoarquivo.Substring(indice+1));
 
-                meusarquivos.Add(new Arquivo { Conteudo = "Teste..." });
+                //meusarquivos.Add(new Arquivo { Conteudo = "Teste..." });
+                //File.Delete(nomedoarquivo);
+
+                meusarquivos.Add(new Arquivo
+                {
+                    Conteudo = File.ReadAllText(nomedoarquivo),
+                    DtCriacao = File.GetCreationTime(nomedoarquivo).ToString() //DateTime.Now.ToString()
+                });
+
             }
 
             listView_listaArquivo.ItemsSource = meusarquivos;

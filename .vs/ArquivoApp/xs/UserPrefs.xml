@@ -1,19 +1,12 @@
-﻿<Properties StartupConfiguration="{65630B63-869B-4447-8323-FA7BB2407B43}|Default">
+﻿<Properties StartupConfiguration="{508A8633-9D9E-45FB-BC2B-7C1E31652D27}|Default">
   <MonoDevelop.Ide.ItemProperties.ArquivoApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.199DDBD7-AF81-4DD5-8532-7CE20414E524" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ArquivoApp/MainPage.xaml.cs">
-    <Files>
-      <File FileName="ArquivoApp/PageListaArquivo.xaml.cs" Line="1" Column="1" />
-      <File FileName="ArquivoApp/PageListaArquivo.xaml" Line="5" Column="31" />
-      <File FileName="ArquivoApp/Arquivo.cs" Line="10" Column="10" />
-      <File FileName="ArquivoApp/MainPage.xaml.cs" Line="22" Column="13" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ArquivoApp.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.ArquivoApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/aluno/Projects/ArquivoApp/ArquivoApp/MainPage.xaml.cs" relfile="ArquivoApp/MainPage.xaml.cs" line="45" column="1" />
+      <Breakpoint file="/Users/aluno/Projects/ArquivoApp/ArquivoApp/MainPage.xaml.cs" relfile="ArquivoApp/MainPage.xaml.cs" line="51" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

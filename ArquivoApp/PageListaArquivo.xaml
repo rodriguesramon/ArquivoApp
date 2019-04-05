@@ -13,7 +13,8 @@
         <ListView x:Name="listView_listaArquivo">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Conteudo}"/>
+                    <TextCell Text="{Binding Conteudo}" 
+                              Detail="{Binding DtCriacao}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
